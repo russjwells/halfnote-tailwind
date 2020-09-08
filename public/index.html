@@ -9,8 +9,8 @@
 </head>
 <body class="flex-auto h-screen bg-practice-room bg-cover bg-center">
     <div class="app-w flex flex-col flex-auto h-screen">
-        <div class="header flex flex-initial bg-cream h-32 border-b-2 border-black bg-opacity-90">
-            <div class="logo-w display-flex flex-1 px-4 py-4">
+        <div class="header flex flex-initial bg-cream h-24 border-b-2 border-black bg-opacity-90">
+            <div class="logo-w display-flex flex-1 px-12 py-4">
                 <div class="logo-text text-5xl flex-1 font-extrabold -my-4" >
                     Halfnote
                 </div>
@@ -21,13 +21,13 @@
             <div class="login-w flex flex-1 px-4 py-4 items-center">
                 <div class="flex-1 flex-row">
                     <label class="text-sm font-bold">Username:</label> 
-                    <input class="rounded border-2 border-black" /> 
+                    <input class="rounded border-2 border-black bg-opacity-90 bg-gray-200 px-4 py-1" /> 
                 </div>
                 <div class="flex-1 flex-row">
                     <label class="text-sm font-bold">Password:</label> 
-                    <input class="rounded border-2 border-black" /> 
+                    <input type="password" class="rounded border-2 border-black bg-gray-200 px-4 py-1" /> 
                 </div>
-                <button class="bg-gray-400 text-black hover:bg-orange-300 font-bold py-2 px-4 rounded border-2 border-black">
+                <button class="bg-gray-400 text-black hover:bg-orange-300 font-bold py-1 px-4 rounded border-2 border-black">
                     Login
                 </button>
             </div>
@@ -42,13 +42,16 @@
                 <div class="flex-1 bg-cream px-10 py-10 mx-10 my-10 border-black border-2 bg-opacity-1 rounded">
                     <div class="text-4xl my-2 font-extrabold" >Rock your own private practice space.</div>
                     <form class="grid grid-cols-2 gap-4">
-                        <label class="text-sm font-bold text-right my-2">Username: </label><input class="rounded border-2 border-black"/>
+                        <label class="text-sm font-bold text-right my-2">Username: </label>
+                        <input class="rounded border-2 border-black bg-gray-300 px-2"/>
                         <div></div>
                         <div class="text-xs -my-3 px-1"><strong>@Username </strong>is available.</div>
-                        <label class="text-sm font-bold text-right my-2">Email: </label><input class="rounded border-2 border-black"/>
+                        <label class="text-sm font-bold text-right my-2">Email: </label>
+                        <input type="email" class="rounded border-2 border-black bg-gray-300 px-2"/>
                         <div></div>
                         <div class="text-xs -my-3 px-1"><strong>Welcome </strong>to Halfnote.</div>
-                        <label class="text-sm font-bold text-right my-2">Password: </label><input class="rounded border-2 border-black bg-gray-300"/>
+                        <label class="text-sm font-bold text-right my-2">Password: </label>
+                        <input type="password" class="rounded border-2 border-black bg-gray-300 bg-opacity-90 px-2"/>
                         <div></div>
                         <div class="text-xs -my-3 px-1"><strong>Looks secure,</strong> but don't forget to lock the van.</div>
                         <div></div>
@@ -58,14 +61,14 @@
             </div>
         </div>
         <div class="footer flex flex-initial h-32 border-t-2 border-black bg-opacity-90 bg-darkcream">
-            <div class="flex-1 footer-logo mx-4 my-4 text-black font-extrabold">
+            <div class="flex-1 footer-logo mx-12 my-4 text-black font-extrabold">
                 Halfnote
             </div>
             <div class="footer-links text-sm mx-4 my-4 text-black grid grid-cols-6 gap-4">
                 <div>
                     <h6 class="font-bold">Musicians</h6>
                     <ul>
-                        <li>Track your practice sessions</li>
+                        <li>Track your sessions</li>
                         <li>Build your repartoire</li>
                         <li>Share your progress</li>
                     </ul>
@@ -73,7 +76,7 @@
                 <div>
                     <h6 class="font-bold">Teachers</h6>
                     <ul>
-                        <li>Your practice materials</li>
+                        <li>Organize practice materials</li>
                         <li>Leave recorded feedback</li>
                         <li>Give private lessons</li>
                     </ul>
