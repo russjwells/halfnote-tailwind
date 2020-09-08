@@ -20716,6 +20716,10 @@ video {
   grid-template-columns: none;
 }
 
+.grid-cols-off2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr 6fr));
+}
+
 .col-auto {
   grid-column: auto;
 }
@@ -42760,6 +42764,10 @@ video {
     grid-template-columns: none;
   }
 
+  .sm\:grid-cols-off2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr 6fr));
+  }
+
   .sm\:col-auto {
     grid-column: auto;
   }
@@ -64733,6 +64741,10 @@ video {
 
   .md\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .md\:grid-cols-off2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr 6fr));
   }
 
   .md\:col-auto {
@@ -86710,6 +86722,10 @@ video {
     grid-template-columns: none;
   }
 
+  .lg\:grid-cols-off2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr 6fr));
+  }
+
   .lg\:col-auto {
     grid-column: auto;
   }
@@ -108683,6 +108699,10 @@ video {
 
   .xl\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .xl\:grid-cols-off2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr 6fr));
   }
 
   .xl\:col-auto {
